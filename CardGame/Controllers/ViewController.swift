@@ -34,8 +34,10 @@ class ViewController: UIViewController {
     //Timer
     var timer = Timer()
     
-    //Audio
+    //audio
     var player: AVAudioPlayer!
+    var flip = SoundPlayer(soundName: "flip", type: "mp3")
+    var win = SoundPlayer(soundName: "win", type: "wav")
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -51,10 +53,12 @@ class ViewController: UIViewController {
     @objc func gameRun(){
         if(round<15)
         {
+            playSound(sound: flip)
             updateUI()
         }
         else{
             timer.invalidate()
+            playSound(sound: win)
             checkWin()
             Timer.scheduledTimer(timeInterval: 3, target: self, selector: #selector(playAgain) , userInfo: nil, repeats: false)
             
@@ -69,17 +73,20 @@ class ViewController: UIViewController {
     }
     
     func updateDeaks(){
-        flipSound()
+        
+        UIView.transition(with: PlayerA_Deak, duration: 0.5, options: .transitionFlipFromRight, animations: nil, completion: nil)
         PlayerA_Deak.image = deakMengment.deakPlayerA?[deakMengment.playerA_index].cardImg
+        
+        UIView.transition(with: PlayerB_Deak, duration: 0.5, options: .transitionFlipFromLeft, animations: nil, completion: nil)
         PlayerB_Deak.image = deakMengment.deakPlayerB?[deakMengment.playerB_index].cardImg
     }
     
-    func flipSound(){
-        let url = Bundle.main.url(forResource: "flip", withExtension: "mp3")
+
+    func playSound(sound:SoundPlayer?){
+        let url = Bundle.main.url(forResource: sound?.soundName, withExtension: sound?.type)
         player = try! AVAudioPlayer(contentsOf: url!)
         player.play()
     }
-    
     
     func updateScore(){
         if(deakMengment.deakPlayerA![deakMengment.playerA_index].cardPower > deakMengment.deakPlayerB![deakMengment.playerB_index].cardPower ){

@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		A900A31628070CA6001EE80C /* Deak.swift in Sources */ = {isa = PBXBuildFile; fileRef = A900A31528070CA6001EE80C /* Deak.swift */; };
 		A949265A2816F8EA00BE52C1 /* flip.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A94926592816F8EA00BE52C1 /* flip.mp3 */; };
+		A949265C2816FF7300BE52C1 /* win.wav in Resources */ = {isa = PBXBuildFile; fileRef = A949265B2816FF7300BE52C1 /* win.wav */; };
+		A949265E2817006C00BE52C1 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A949265D2817006C00BE52C1 /* SoundPlayer.swift */; };
 		A988104727FAE95F001C34DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A988104627FAE95F001C34DC /* AppDelegate.swift */; };
 		A988104927FAE95F001C34DC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A988104827FAE95F001C34DC /* SceneDelegate.swift */; };
 		A988104B27FAE95F001C34DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A988104A27FAE95F001C34DC /* ViewController.swift */; };
@@ -41,6 +43,8 @@
 /* Begin PBXFileReference section */
 		A900A31528070CA6001EE80C /* Deak.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deak.swift; sourceTree = "<group>"; };
 		A94926592816F8EA00BE52C1 /* flip.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = flip.mp3; sourceTree = "<group>"; };
+		A949265B2816FF7300BE52C1 /* win.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = win.wav; sourceTree = "<group>"; };
+		A949265D2817006C00BE52C1 /* SoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
 		A94EDA6A2815391A005C9992 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A988104327FAE95F001C34DC /* CardGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A988104627FAE95F001C34DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -94,6 +98,7 @@
 		A94926542816F33200BE52C1 /* sound */ = {
 			isa = PBXGroup;
 			children = (
+				A949265B2816FF7300BE52C1 /* win.wav */,
 				A94926592816F8EA00BE52C1 /* flip.mp3 */,
 			);
 			path = sound;
@@ -158,6 +163,7 @@
 			children = (
 				A9C4FA1927FB468700E09BEE /* Card.swift */,
 				A900A31528070CA6001EE80C /* Deak.swift */,
+				A949265D2817006C00BE52C1 /* SoundPlayer.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -266,6 +272,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A949265C2816FF7300BE52C1 /* win.wav in Resources */,
 				A988105327FAE960001C34DC /* LaunchScreen.storyboard in Resources */,
 				A949265A2816F8EA00BE52C1 /* flip.mp3 in Resources */,
 				A9D107C32816B6090077AA72 /* Assets.xcassets in Resources */,
@@ -296,6 +303,7 @@
 			files = (
 				A900A31628070CA6001EE80C /* Deak.swift in Sources */,
 				A988104B27FAE95F001C34DC /* ViewController.swift in Sources */,
+				A949265E2817006C00BE52C1 /* SoundPlayer.swift in Sources */,
 				A9C4FA1A27FB468700E09BEE /* Card.swift in Sources */,
 				A988104727FAE95F001C34DC /* AppDelegate.swift in Sources */,
 				A988104927FAE95F001C34DC /* SceneDelegate.swift in Sources */,
