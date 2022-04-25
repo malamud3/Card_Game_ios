@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A900A31628070CA6001EE80C /* Deak.swift in Sources */ = {isa = PBXBuildFile; fileRef = A900A31528070CA6001EE80C /* Deak.swift */; };
+		A949265A2816F8EA00BE52C1 /* flip.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A94926592816F8EA00BE52C1 /* flip.mp3 */; };
 		A988104727FAE95F001C34DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A988104627FAE95F001C34DC /* AppDelegate.swift */; };
 		A988104927FAE95F001C34DC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A988104827FAE95F001C34DC /* SceneDelegate.swift */; };
 		A988104B27FAE95F001C34DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A988104A27FAE95F001C34DC /* ViewController.swift */; };
 		A988104E27FAE95F001C34DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A988104C27FAE95F001C34DC /* Main.storyboard */; };
-		A988105027FAE960001C34DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A988104F27FAE960001C34DC /* Assets.xcassets */; };
 		A988105327FAE960001C34DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A988105127FAE960001C34DC /* LaunchScreen.storyboard */; };
 		A988105E27FAE961001C34DC /* CardGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A988105D27FAE961001C34DC /* CardGameTests.swift */; };
 		A988106827FAE961001C34DC /* CardGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A988106727FAE961001C34DC /* CardGameUITests.swift */; };
 		A988106A27FAE961001C34DC /* CardGameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A988106927FAE961001C34DC /* CardGameUITestsLaunchTests.swift */; };
+		A9C4FA1A27FB468700E09BEE /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C4FA1927FB468700E09BEE /* Card.swift */; };
+		A9D107C32816B6090077AA72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9D107C22816B6090077AA72 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,12 +39,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A900A31528070CA6001EE80C /* Deak.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deak.swift; sourceTree = "<group>"; };
+		A94926592816F8EA00BE52C1 /* flip.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = flip.mp3; sourceTree = "<group>"; };
+		A94EDA6A2815391A005C9992 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A988104327FAE95F001C34DC /* CardGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A988104627FAE95F001C34DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A988104827FAE95F001C34DC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A988104A27FAE95F001C34DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A988104D27FAE95F001C34DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A988104F27FAE960001C34DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A988105227FAE960001C34DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A988105427FAE960001C34DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A988105927FAE961001C34DC /* CardGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +54,8 @@
 		A988106327FAE961001C34DC /* CardGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A988106727FAE961001C34DC /* CardGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardGameUITests.swift; sourceTree = "<group>"; };
 		A988106927FAE961001C34DC /* CardGameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardGameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A9C4FA1927FB468700E09BEE /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		A9D107C22816B6090077AA72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,12 +83,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A900A31428070C3C001EE80C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A988104A27FAE95F001C34DC /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A94926542816F33200BE52C1 /* sound */ = {
+			isa = PBXGroup;
+			children = (
+				A94926592816F8EA00BE52C1 /* flip.mp3 */,
+			);
+			path = sound;
+			sourceTree = "<group>";
+		};
 		A988103A27FAE95F001C34DC = {
 			isa = PBXGroup;
 			children = (
-				A988104527FAE95F001C34DC /* CardGame */,
-				A988105C27FAE961001C34DC /* CardGameTests */,
 				A988106627FAE961001C34DC /* CardGameUITests */,
+				A988105C27FAE961001C34DC /* CardGameTests */,
+				A988104527FAE95F001C34DC /* CardGame */,
 				A988104427FAE95F001C34DC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -99,13 +122,16 @@
 		A988104527FAE95F001C34DC /* CardGame */ = {
 			isa = PBXGroup;
 			children = (
+				A94926542816F33200BE52C1 /* sound */,
+				A9C4FA1B27FB4DFE00E09BEE /* Model */,
+				A900A31428070C3C001EE80C /* Controllers */,
 				A988104627FAE95F001C34DC /* AppDelegate.swift */,
 				A988104827FAE95F001C34DC /* SceneDelegate.swift */,
-				A988104A27FAE95F001C34DC /* ViewController.swift */,
 				A988104C27FAE95F001C34DC /* Main.storyboard */,
-				A988104F27FAE960001C34DC /* Assets.xcassets */,
 				A988105127FAE960001C34DC /* LaunchScreen.storyboard */,
+				A94EDA6A2815391A005C9992 /* Assets.xcassets */,
 				A988105427FAE960001C34DC /* Info.plist */,
+				A9D107C22816B6090077AA72 /* Assets.xcassets */,
 			);
 			path = CardGame;
 			sourceTree = "<group>";
@@ -125,6 +151,15 @@
 				A988106927FAE961001C34DC /* CardGameUITestsLaunchTests.swift */,
 			);
 			path = CardGameUITests;
+			sourceTree = "<group>";
+		};
+		A9C4FA1B27FB4DFE00E09BEE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A9C4FA1927FB468700E09BEE /* Card.swift */,
+				A900A31528070CA6001EE80C /* Deak.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,7 +267,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A988105327FAE960001C34DC /* LaunchScreen.storyboard in Resources */,
-				A988105027FAE960001C34DC /* Assets.xcassets in Resources */,
+				A949265A2816F8EA00BE52C1 /* flip.mp3 in Resources */,
+				A9D107C32816B6090077AA72 /* Assets.xcassets in Resources */,
 				A988104E27FAE95F001C34DC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,7 +294,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A900A31628070CA6001EE80C /* Deak.swift in Sources */,
 				A988104B27FAE95F001C34DC /* ViewController.swift in Sources */,
+				A9C4FA1A27FB468700E09BEE /* Card.swift in Sources */,
 				A988104727FAE95F001C34DC /* AppDelegate.swift in Sources */,
 				A988104927FAE95F001C34DC /* SceneDelegate.swift in Sources */,
 			);
@@ -455,7 +493,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -484,7 +522,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
